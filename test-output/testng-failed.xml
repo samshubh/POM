@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test NG Automation]">
+  <test thread-count="5" name="Different TestNG Features(failed)">
+    <classes>
+      <class name="com.test.TestNGBasicExample">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="generateTestReport"/>
+          <include name="closeBrowser"/>
+          <include name="getTitle"/>
+          <include name="setProperty"/>
+          <include name="logoutApp"/>
+          <include name="loginApp"/>
+          <include name="deleteCookies"/>
+          <include name="enterUrl"/>
+        </methods>
+      </class> <!-- com.test.TestNGBasicExample -->
+      <class name="com.test.GoogleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchKeys"/>
+          <include name="tearDown"/>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- com.test.GoogleTest -->
+      <class name="com.test.InvocationCountExample">
+        <methods>
+          <include name="test1"/>
+          <include name="add"/>
+        </methods>
+      </class> <!-- com.test.InvocationCountExample -->
+      <class name="com.test.LandingPage">
+        <methods>
+          <include name="generateReports"/>
+          <include name="closeBrowser"/>
+          <include name="Login"/>
+          <include name="titleTest"/>
+          <include name="setUp"/>
+          <include name="bowlsNameGourmet"/>
+          <include name="logoTest"/>
+          <include name="bowlsNameGrocer"/>
+          <include name="logoutUser"/>
+          <include name="bowlsNameFresh"/>
+        </methods>
+      </class> <!-- com.test.LandingPage -->
+    </classes>
+  </test> <!-- Different TestNG Features(failed) -->
+</suite> <!-- Failed suite [Test NG Automation] -->

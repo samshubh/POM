@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Test NG Automation">
+         
+  <test name="Different TestNG Features">
+	 <classes>
+	   <class name="com.test.InvocationCountExample"/>
+	   <class name="com.test.GoogleTest"/>
+	   <class name="com.test.LandingPage"/>
+	   <class name="com.test.TestNGBasicExample"/>
+	 </classes>
+   </test>
+</suite>

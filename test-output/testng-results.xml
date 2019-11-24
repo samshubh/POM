@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112932" started-at="2019-11-21T23:17:40 IST" finished-at="2019-11-21T23:19:33 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="112932" started-at="2019-11-21T23:17:40 IST" finished-at="2019-11-21T23:19:33 IST">
+      <class name="com.test.DataDrivenConcept">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="setUp" is-config="true" duration-ms="20198" started-at="2019-11-21T23:17:41 IST" finished-at="2019-11-21T23:18:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpKipos(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="signUpKipos" duration-ms="17248" started-at="2019-11-21T23:18:01 IST" data-provider="getData" finished-at="2019-11-21T23:18:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham Biswas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[subham123@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpKipos -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="tearDown" is-config="true" duration-ms="734" started-at="2019-11-21T23:18:19 IST" finished-at="2019-11-21T23:18:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="setUp" is-config="true" duration-ms="20528" started-at="2019-11-21T23:18:19 IST" finished-at="2019-11-21T23:18:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpKipos(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="signUpKipos" duration-ms="17178" started-at="2019-11-21T23:18:40 IST" data-provider="getData" finished-at="2019-11-21T23:18:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandy Biswas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sandy12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpKipos -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="tearDown" is-config="true" duration-ms="731" started-at="2019-11-21T23:18:57 IST" finished-at="2019-11-21T23:18:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="setUp" is-config="true" duration-ms="17243" started-at="2019-11-21T23:18:58 IST" finished-at="2019-11-21T23:19:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpKipos(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="signUpKipos" duration-ms="17103" started-at="2019-11-21T23:19:15 IST" data-provider="getData" finished-at="2019-11-21T23:19:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sangeeta Biswas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sangeeta12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[welcome123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[welcome1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpKipos -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenConcept@551aa95a]" name="tearDown" is-config="true" duration-ms="721" started-at="2019-11-21T23:19:32 IST" finished-at="2019-11-21T23:19:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.DataDrivenConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
